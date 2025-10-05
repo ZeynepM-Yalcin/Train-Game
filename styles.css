@@ -1,0 +1,144 @@
+.station {
+    fill: #ffc0cb;
+    stroke: #f8c8dc;
+    stroke-width: 2;
+    cursor: pointer;
+}
+
+.line {
+    stroke: #000;
+    stroke-width: 2;
+    pointer-events: none;
+}
+
+body {
+    background-color: #fff5ee;
+}
+
+#popup-box {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px; 
+    background-color: #fff; 
+    border: 1px solid #000; 
+}
+
+.popup-box button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #f8c8dc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.popup-box button:hover {
+    background-color: #f8c8dc;
+}
+
+svg .train {
+    fill: #000;
+    stroke: none;
+    transition: fill 0.3s ease;
+}
+
+#bank-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.line-cost-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#line-cost {
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    z-index: 2; /* Ensure it's above the lines */
+}
+
+#train-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    right: 20px; 
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    z-index: 9999;
+}
+
+#train-popup-content button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #f8c8dc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#ticket-price-upgrade-box {
+    position: fixed;
+    bottom: 90px; /* Adjusted higher value */
+    right: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+#ticket-price-upgrade-box p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#upgrade-ticket-price-btn {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #f8c8dc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#upgrade-ticket-price-btn:hover {
+    background-color: #f8c8dc;
+}
+
+#train-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    z-index: 9999;
+}
+
+#train-popup-content button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #f8c8dc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train-Net</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <button id="buy-station-btn">Buy Station</button>
+    <svg id="game-container" class="game-container" width="1352" height="761"></svg>
+    <div id="popup-box" class="popup-box">
+        <p>Passenger Information</p>
+        <button class="upgrade-station-btn" data-station-id="">Upgrade Station</button>
+    </div>
+    <div id="bank-box">
+        <p id="bank-text">Bank: $300.00</p>
+    </div>
+    <div id="capacity-timer-display">Capacity Timer: <span id="capacity-timer"></span></div>
+    <!-- Ticket price upgrade box -->
+    <div id="ticket-price-upgrade-box">
+        <p>Ticket Price: $<span id="ticket-price">1.00</span></p>
+        <button id="upgrade-ticket-price-btn">Upgrade Ticket Price</button>
+    </div>
+    <div id="train-upgrade-popup" style="display: none; position: fixed; top: 20px; left: 20px; background-color: white; padding: 10px; border: 1px solid black;">
+        <div id="train-upgrade-popup-content">
+            <!-- Popup content will be dynamically populated here -->
+        </div>
+    </div>
+    <!-- Train upgrade box -->
+
+    <div id="train-popup">
+        <div id="train-popup-content">
+            <!-- The popup content will be dynamically generated -->
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
