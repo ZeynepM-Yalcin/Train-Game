@@ -6,4 +6,4 @@ I was inspired from a similar plane game I would play called Fly Corp: Airline M
 Currently, my game has a very basic UI I made using CSS and HTML. I am, however, changing this using Javascript's Phaser library.
 
 ##  To run
-Download ONLY the html, css and script_full.js
+Download ONLY the html, css and full_script.js
